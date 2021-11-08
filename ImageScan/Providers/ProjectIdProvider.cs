@@ -20,7 +20,7 @@
                 return _projectId;
             }
 
-            var env = Environment.GetEnvironmentVariable("PROJECT_ID");
+            var env = Environment.GetEnvironmentVariable("PID");
 
             if (env is null)
             {
